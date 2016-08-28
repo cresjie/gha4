@@ -1,0 +1,18 @@
+.party-banner{
+	padding: 170px 0;
+	background-image: url(../../images/banner/event-party.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.party-banner .box{
+	background: rgba(0,0,0,.5);
+	padding: 10px;
+	color: #fff;
+}
+.party-banner .box-title{
+	margin-top: 0;
+}
+.nearby-events .nearby-title{
+	color: #40a2b0;
+	font-size: 21px;
+}

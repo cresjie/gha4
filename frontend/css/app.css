@@ -1,0 +1,28 @@
+body{
+	background: #f2f2f2;
+	font-family: "Arial","Open Sans", "Helvetica Neue";
+}
+.navbar-main{
+	background: #fff;
+	border: none;
+	border-top: 3px solid #40a2b0;
+	margin: 0;
+}
+.navbar-main .navbar-brand{
+	height: auto;
+}
+.navbar-main .navbar-nav a{
+	font-weight: bold;
+	font-size: 14px;
+	color: #313131;
+	padding: 29px 15px;
+}
+.navbar-main .navbar-nav>li> a:hover,
+.navbar-main .navbar-nav>li> a:focus{
+	background-color: none;
+
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background: none;
+	color: #47a8b8;
+}
