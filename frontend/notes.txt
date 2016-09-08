@@ -1,0 +1,6 @@
+--Event Categories
+	Concert|Shows
+	Arts|Exhibitions
+	Parties|Functions
+	Festivals|Anniversaries
+	Diverse Events

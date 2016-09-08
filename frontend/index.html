@@ -5,12 +5,13 @@
 	<title>GigHubApp</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/app.css"/>
 	<link rel="stylesheet" href="css/content/home.css"/>
 </head>
 <body class="home">
 
-	<nav class="navbar navbar-main ">
+	<nav class="navbar navbar-main navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">
@@ -19,6 +20,15 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar">
+				<div class="pull-left">
+					<form class="navbar-form">
+						<div class="navbar-search">
+							<input type="text" class="transparent-input" placeholder="Search">
+							<i class="fa fa-search"></i>
+						</div>
+						
+					</form>
+				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">SIGNUP</a></li>
 					<li><a href="#">LOGIN</a></li>
@@ -27,6 +37,8 @@
 		</div>
 	</nav>
 	
+	<div id="navbar-spacer" style="height:81px"></div>
+
 	<div id="main-content">
 		<div class="party-banner" ng-class="">
 			<div class="container">
@@ -46,7 +58,200 @@
 
 		<div class="container">
 			<div class="event-listing">
-				<div class="nearby-events"><h2 class="nearby-title">NEARBY EVENTS IN CEBU CITY</h2></div>	
+				<div class="nearby-events">
+					<div class="row">
+						<div class="col-md-9">
+							<h2 class="nearby-title">NEARBY EVENTS IN </h2>
+							<input type="text" class="transparent-input inline-block text-uppercase" value="CEBU CITY">
+						</div>
+						<div class="col-md-3">
+							<select class="form-control">
+								<option>Concert | Shows</option>
+								<option>Arts | Exhibitions</option>
+								<option>Parties | Functions</option>
+								<option>Festivals | Anniversaries</option>
+								<option>Diverse Events</option>
+							</select>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<div class="event-card">
+							<div class="event-header">
+								<div class="event-action">
+									<a class="save-event" href="javascript:;"><i class="fa fa-bookmark"></i></a>
+								</div>
+								<a href="3">
+									<img class="img-responsive" src="http://localhost/gighubapp4/uploads/event_poster/w150/default.jpg">
+								</a>
+								
+							</div>
+							<div class="event-body">
+								<a href="#">
+									<h3 class="event-title">ipsum dolor ac egestas mas </h3>
+									<div class="event-info">
+										<p>Jan 20, 2016 | 8:00pm - 9:00 pm, Thursday</p>
+										<p>fun-ob lapu lapu city asdf asdfasdf asdfasdf</p>
+									</div>
+								</a>
+								
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-md-3">
+						<div class="event-card">
+							<div class="event-header">
+								<div class="event-action">
+									<a class="save-event" href="javascript:;"><i class="fa fa-bookmark"></i></a>
+								</div>
+								<a href="3">
+									<img class="img-responsive" src="http://localhost/gighubapp4/uploads/event_poster/w150/default.jpg">
+								</a>
+								
+							</div>
+							<div class="event-body">
+								<a href="#">
+									<h3 class="event-title">ipsum dolor ac egestas mas </h3>
+									<div class="event-info">
+										<p>Jan 20, 2016 | 8:00pm - 9:00 pm, Thursday</p>
+										<p>fun-ob lapu lapu city asdf asdfasdf asdfasdf</p>
+									</div>
+								</a>
+								
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-md-3">
+						<div class="event-card">
+							<div class="event-header">
+								<div class="event-action">
+									<a class="save-event" href="javascript:;"><i class="fa fa-bookmark"></i></a>
+								</div>
+								<a href="3">
+									<img class="img-responsive" src="http://localhost/gighubapp4/uploads/event_poster/w150/default.jpg">
+								</a>
+								
+							</div>
+							<div class="event-body">
+								<a href="#">
+									<h3 class="event-title">ipsum dolor ac egestas mas </h3>
+									<div class="event-info">
+										<p>Jan 20, 2016 | 8:00pm - 9:00 pm, Thursday</p>
+										<p>fun-ob lapu lapu city asdf asdfasdf asdfasdf</p>
+									</div>
+								</a>
+								
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-md-3">
+						<div class="event-card">
+							<div class="event-header">
+								<div class="event-action">
+									<a class="save-event" href="javascript:;"><i class="fa fa-bookmark"></i></a>
+								</div>
+								<a href="3">
+									<img class="img-responsive" src="http://localhost/gighubapp4/uploads/event_poster/w150/default.jpg">
+								</a>
+								
+							</div>
+							<div class="event-body">
+								<a href="#">
+									<h3 class="event-title">ipsum dolor ac egestas mas </h3>
+									<div class="event-info">
+										<p>Jan 20, 2016 | 8:00pm - 9:00 pm, Thursday</p>
+										<p>fun-ob lapu lapu city asdf asdfasdf asdfasdf</p>
+									</div>
+								</a>
+								
+							</div>
+							
+						</div>
+
+
+					</div>
+					<div class="col-md-3">
+						<div class="event-card">
+							<div class="event-header">
+								<div class="event-action">
+									<a class="save-event" href="javascript:;"><i class="fa fa-bookmark"></i></a>
+								</div>
+								<a href="3">
+									<img class="img-responsive" src="http://localhost/gighubapp4/uploads/event_poster/w150/default.jpg">
+								</a>
+								
+							</div>
+							<div class="event-body">
+								<a href="#">
+									<h3 class="event-title">ipsum dolor ac egestas mas </h3>
+									<div class="event-info">
+										<p>Jan 20, 2016 | 8:00pm - 9:00 pm, Thursday</p>
+										<p>fun-ob lapu lapu city asdf asdfasdf asdfasdf</p>
+									</div>
+								</a>
+								
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-md-3">
+						<div class="event-card">
+							<div class="event-header">
+								<div class="event-action">
+									<a class="save-event" href="javascript:;"><i class="fa fa-bookmark"></i></a>
+								</div>
+								<a href="3">
+									<img class="img-responsive" src="http://localhost/gighubapp4/uploads/event_poster/w150/default.jpg">
+								</a>
+								
+							</div>
+							<div class="event-body">
+								<a href="#">
+									<h3 class="event-title">ipsum dolor ac egestas mas </h3>
+									<div class="event-info">
+										<p>Jan 20, 2016 | 8:00pm - 9:00 pm, Thursday</p>
+										<p>fun-ob lapu lapu city asdf asdfasdf asdfasdf</p>
+									</div>
+								</a>
+								
+							</div>
+							
+						</div>
+
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>&copy; 2016 GigHubApp. All Rights Reserved.</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-inline footer-links text-right">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">HELP</a></li>
+						<li><a href="#">CAREERS</a></li>
+						<li><a href="#">TERMS</a></li>
+						<li><a href="#">PRIVACY</a></li>
+
+					</ul>
+
+				</div>
 			</div>
 		</div>
 	</div>

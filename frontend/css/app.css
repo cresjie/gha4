@@ -1,6 +1,24 @@
+/**
+* Global
+*/
 body{
 	background: #f2f2f2;
 	font-family: "Arial","Open Sans", "Helvetica Neue";
+	color: #313131;
+}
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+.inline-block{
+	display: inline-block;
+}
+
+.transparent-input,
+.transparent-input:focus{
+	border: 0;
+	background: none;
+	outline: none;
 }
 .navbar-main{
 	background: #fff;
@@ -25,4 +43,29 @@ body{
 .nav > li > a:hover, .nav > li > a:focus {
 	background: none;
 	color: #47a8b8;
+}
+.navbar-search{
+	    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 13px;
+    border-bottom: 2px solid #d2d2d2;
+
+}
+/**
+* Footer
+*/ 
+.footer{
+	background: #1e1e1e;
+	padding: 30px 0;
+}
+.footer p,
+.footer a{
+	color: #444;
+}
+.footer-links a{
+	font-weight: bold;
+}
+.footer-links a:hover,
+.footer-links a:focus{
+	color: #5f5f5f;
 }
