@@ -10,6 +10,9 @@ a:hover,
 a:focus{
 	text-decoration: none;
 }
+.block{
+	display: block;
+}
 .inline-block{
 	display: inline-block;
 }
@@ -52,7 +55,10 @@ a:focus{
     border-bottom: 2px solid #d2d2d2;
 
 }
-.login-dropdown{
+.login-dropdown.open > a{
+	color: #47a8b8;
+}
+.login-dropdown ul{
 	padding: 15px;
 	min-width: 250px
 }
@@ -85,6 +91,16 @@ a:focus{
 .btn-gha-primary:hover,
 .btn-gha-primary:focus{
 	background: #3b808a;
+	color: #fff;
+}
+
+.btn-gha-warning{
+	background: #f15422;
+	color: #fff
+}
+.btn-gha-warning:hover,
+.btn-gha-warning:focus{
+	background: #d64d21;
 	color: #fff;
 }
 /**
