@@ -24,6 +24,7 @@ a:focus{
 	background: #fff;
 	border: none;
 	border-top: 3px solid #40a2b0;
+	border-bottom: 1px solid #fff;
 	margin: 0;
 }
 .navbar-main .navbar-brand{
@@ -51,6 +52,10 @@ a:focus{
     border-bottom: 2px solid #d2d2d2;
 
 }
+.login-dropdown{
+	padding: 15px;
+	min-width: 250px
+}
 /**
 * Footer
 */ 
@@ -68,4 +73,31 @@ a:focus{
 .footer-links a:hover,
 .footer-links a:focus{
 	color: #5f5f5f;
+}
+
+/**
+* App Library
+*/
+.btn-gha-primary{
+	background: #40a2b0;
+    color: #fff;
+}
+.btn-gha-primary:hover,
+.btn-gha-primary:focus{
+	background: #3b808a;
+	color: #fff;
+}
+/**
+* Bootstrap override
+*/
+
+.form-control{
+	height: 38px;
+	border-radius1: 0;
+}
+.form-control:focus{
+	border-color: #40a2b0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
 }

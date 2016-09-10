@@ -4,10 +4,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GigHubApp</title>
 
-	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/app.css"/>
 	<link rel="stylesheet" href="css/content/home.css"/>
+
+	<script src="js/library/jquery/jquery-3.1.0.min.js"></script>
+	<script src="js/library/bootstrap/bootstrap.min.js"></script>
 </head>
 <body class="home">
 
@@ -31,7 +34,26 @@
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">SIGNUP</a></li>
-					<li><a href="#">LOGIN</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">LOGIN</a>
+						<ul class="dropdown-menu login-dropdown">
+							<li>
+								
+								<form>
+									<div class="form-group">
+										<input type="text" name="username" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" class="form-control" placeholder="Password">
+									</div>
+									<button type="submit" class="btn btn-gha-primary btn-block">Login</button>
+								</form>
+									
+								
+							</li>
+							
+						</ul>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -66,6 +88,7 @@
 						</div>
 						<div class="col-md-3">
 							<select class="form-control">
+								<option>All</option>
 								<option>Concert | Shows</option>
 								<option>Arts | Exhibitions</option>
 								<option>Parties | Functions</option>
