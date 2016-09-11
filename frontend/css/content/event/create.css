@@ -39,7 +39,31 @@
 .schedule-action{
 	margin-top: 13px;
 }
-
+.ticket-table{
+	margin-bottom: 15px;
+}
+.ticket-table .row{
+	margin-left: -5px;
+	margin-right: -5px;
+	padding: 10px 0;
+}
+.ticket-table [class^="col-"]{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.ticket-table .ticket-head{
+	border-bottom: 2px solid #ddd;
+	
+}
+.ticket-body .handle{
+	padding: 10px 0;
+}
+.ticket-actions{
+	padding: 5px 0;
+}
+.ticket-actions .ticket-btn{
+	font-size: 20px;
+}
 @media (min-width: 990px) {
 	.schedule-list tr:not(:first-child) .control-label{
 		display: none;
