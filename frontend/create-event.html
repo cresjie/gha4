@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GigHubApp</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/app.css"/>
+	<link rel="stylesheet" href="css/content/event/create.css"/>
+
+	
+	<script src="js/library/jquery/jquery-3.1.0.min.js"></script>
+	<script src="js/library/bootstrap/bootstrap.min.js"></script>
+
+	<link href="css/library/froala/froala_editor.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/library/froala/froala_style.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/plugin/froala/colors.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/plugin/froala/image.min.css" rel="stylesheet" type="text/css" />
+	
+
+	<script src="js/library/froala/froala_editor.min.js"></script>
+	
+	<script src="js/plugin/froala/colors.min.js"></script>
+	<script src="js/plugin/froala/font_size.min.js"></script>
+	<script src="js/plugin/froala/image.min.js"></script>
+	
+	<script src="js/content/event/create.js"></script>
+</head>
+<body class="home">
+
+	<nav class="navbar navbar-main navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="GigHubApp" height="48" src="images/logo/logo.png">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<div class="pull-left">
+					<form class="navbar-form">
+						<div class="navbar-search">
+							<input type="text" class="transparent-input" placeholder="Search">
+							<i class="fa fa-search"></i>
+						</div>
+						
+					</form>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">SIGNUP</a></li>
+					<li class="dropdown login-dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">LOGIN</a>
+						<ul class="dropdown-menu ">
+							<li>
+								
+								<form>
+									<div class="form-group">
+										<input type="text" name="username" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" class="form-control" placeholder="Password">
+									</div>
+									<button type="submit" class="btn btn-gha-primary btn-block">Login</button>
+								</form>
+									
+								
+							</li>
+							
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="navbar-spacer" style="height:81px"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<form>
+					<div class="">
+						<h1 class="section-title">EVENT DETAILS</h1>
+
+						<div class="form-group">
+							<label class="control-label required">Event Title:</label>
+							<input type="text" name="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label class="control-label">Link:</label>
+							<div>
+								<span>http://gighubapp.com/events/asdf-...</span>
+								<a href="">
+									<i class="fa fa-pencil"></i>
+								</a>
+								
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">Category:</label>
+							<ul class="list-inline">
+								<li>
+									<div class="checkbox gha-checkbox">
+										<label>
+											<input type="checkbox"> <i class="fa checkbox-icon"></i> Concert | Shows
+										</label>
+									</div>
+								</li>
+								<li>
+									<div class="checkbox gha-checkbox">
+										<label>
+											<input type="checkbox"> <i class="fa checkbox-icon"></i>Arts | Exhibitions
+										</label>
+									</div>
+								</li>
+								<li>
+									<div class="checkbox gha-checkbox">
+										<label>
+											<input type="checkbox"> <i class="fa checkbox-icon"></i>Parties | Functions
+										</label>
+									</div>
+								</li>
+								<li>
+									<div class="checkbox gha-checkbox">
+										<label>
+											<input type="checkbox"><i class="fa checkbox-icon"></i> Festivals | Anniversaries
+										</label>
+									</div>
+								</li>
+								<li>
+									<div class="checkbox gha-checkbox">
+										<label>
+											<input type="checkbox"><i class="fa checkbox-icon"></i> Diverse Events
+										</label>
+									</div>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">Location:</label>
+							<input type="text" class="form-control">
+							<div id="event-location-map" >
+
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">Event Poster:</label>
+							<div class="event-poster-container ">
+								<div class="drop-handle transition-500">
+									<h4 class="drop-title">Drag & Drop</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="">
+							<label class="control-label">Schedule;</label>
+							
+							<table class="schedule-list">
+								<tbody>
+									<tr>
+										<td width="40">
+											<a class="block text-center schedule-action" href="">
+												<i class="fa fa-ellipsis-v"></i><i class="fa fa-ellipsis-v"></i><i class="fa fa-ellipsis-v"></i>
+											</a>
+										</td>
+										<td width="800">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<label class="control-label required">Start</label>
+														<input type="text" class="form-control" placeholder="">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label class="control-label required">End</label>
+														<input type="text" class="form-control" placeholder="">
+													</div>
+												</div>
+											</div>
+										</td>
+										<td width="40">
+											<a class="block text-center schedule-action text-danger" href=""><i class="fa fa-times"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td width="40">
+											<a class="block text-center schedule-action" href="">
+												<i class="fa fa-ellipsis-v"></i><i class="fa fa-ellipsis-v"></i><i class="fa fa-ellipsis-v"></i>
+											</a>
+										</td>
+										<td width="800">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<label class="control-label required">Start</label>
+														<input type="text" class="form-control" placeholder="">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label class="control-label required">End</label>
+														<input type="text" class="form-control" placeholder="">
+													</div>
+												</div>
+											</div>
+										</td>
+										<td width="40">
+											<a class="block text-center schedule-action text-danger" href=""><i class="fa fa-times"></i></a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="form-group">
+								<button class="btn btn-gha-warning with-btn-icon"><i class="fa fa-calendar btn-icon"></i> Add Schedule</button>
+							</div>
+							
+						</div>
+
+						<div class="form-group">
+							<label class="control-label required">Description:</label>
+							<textarea id="event-description" name="description"></textarea>
+						</div>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>© 2016 GigHubApp. All Rights Reserved.</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-inline footer-links text-right">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">HELP</a></li>
+						<li><a href="#">CAREERS</a></li>
+						<li><a href="#">TERMS</a></li>
+						<li><a href="#">PRIVACY</a></li>
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

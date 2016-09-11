@@ -4,11 +4,16 @@
 body{
 	background: #f2f2f2;
 	font-family: "Arial","Open Sans", "Helvetica Neue";
-	color: #313131;
+	/*color: #313131;*/
+	color: #5f5f5f;
 }
 a:hover,
 a:focus{
 	text-decoration: none;
+}
+.required:after{
+	content: '*';
+	color: #f44;
 }
 .block{
 	display: block;
@@ -27,7 +32,7 @@ a:focus{
 	background: #fff;
 	border: none;
 	border-top: 3px solid #40a2b0;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #dcdcdc;
 	margin: 0;
 }
 .navbar-main .navbar-brand{
@@ -102,6 +107,35 @@ a:focus{
 .btn-gha-warning:focus{
 	background: #d64d21;
 	color: #fff;
+}
+.gha-checkbox input[type=checkbox]{
+	display: none;
+}
+.gha-checkbox input[type=checkbox]:checked + .checkbox-icon:before{
+	content: "\f046";
+	color: #40a2b0;
+}
+.gha-checkbox .checkbox-icon:before{
+	content: "\f096";
+	margin-left: -20px;
+}
+.with-btn-icon{
+	position: relative;
+	padding-left: 2.5em;
+}
+.with-btn-icon .btn-icon{
+	position: absolute;
+    top: 50%;
+    font-size: 150%;
+    margin-left: -1.2em;
+    margin-top: -.5em;
+
+}
+.transition-500{
+	-webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 /**
 * Bootstrap override
