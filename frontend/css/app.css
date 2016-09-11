@@ -21,7 +21,9 @@ a:focus{
 .inline-block{
 	display: inline-block;
 }
-
+textarea{
+	max-width: 100%;
+}
 .transparent-input,
 .transparent-input:focus{
 	border: 0;
@@ -73,6 +75,7 @@ a:focus{
 .footer{
 	background: #1e1e1e;
 	padding: 30px 0;
+	margin-top: 20px;
 }
 .footer p,
 .footer a{
@@ -91,6 +94,9 @@ a:focus{
 */
 .bold{
 	font-weight: bold;
+}
+.italic{
+	font-style: italic;
 }
 .btn-gha-primary{
 	background: #40a2b0;
@@ -147,6 +153,18 @@ a:focus{
     margin-top: -.5em;
 
 }
+.help-tooltip{
+	border: 1px solid #da3232;
+    color: #da3232;
+    border-radius: 50%;
+    padding: 0px 3px;
+    font-size: 10px;
+}
+.help-tooltip:hover,
+.help-tooltip:focus{
+	border: 1px solid #ab1111;
+	color: #ab1111;
+}
 .transition-500{
 	-webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -159,7 +177,6 @@ a:focus{
 
 .form-control{
 	height: 38px;
-	border-radius1: 0;
 }
 .form-control:focus{
 	border-color: #40a2b0;
