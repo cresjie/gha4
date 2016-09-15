@@ -171,6 +171,15 @@ textarea{
     -o-transition: all .5s;
     transition: all .5s;
 }
+.btn-actions{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.btn-actions .btn{
+	margin-bottom: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
 /**
 * Bootstrap override
 */

@@ -42,7 +42,7 @@
 				<div class="pull-left">
 					<form class="navbar-form">
 						<div class="navbar-search">
-							<input type="text" class="transparent-input" placeholder="Search">
+							<input type="text" class="transparent-input" placeholder="Search" auto-width>
 							<i class="fa fa-search"></i>
 						</div>
 						
@@ -412,6 +412,10 @@
 								</div>
 							</div>
 							
+							<div class="btn-actions">
+								<button class="btn btn-gha-warning"><i class="fa fa-plus"></i> Add Free Ticket</button>
+								<button class="btn btn-primary"><i class="fa fa-ticket"></i> Add Paid Ticket</button>
+							</div>
 						</div>
 
 						<div class="rsvp">
@@ -438,6 +442,33 @@
 								</div>
 							</div>
 						</div>
+
+						<h2 class="section-title">Additional Settings</h2>
+						<div class="form-group">
+							<label class="control-label">Privacy Setting:</label>
+							<div class="radio gha-radio">
+								<label>
+									<input type="radio" name="privacy">
+									<i class="fa radio-icon"></i>
+									Public Event: <small class="italic">include this event in GighubApp Search and other search engines.</small>
+								</label>
+							</div>
+							<div class="radio gha-radio">
+								<label>
+									<input type="radio" name="privacy">
+									<i class="fa radio-icon"></i>
+									Private Event: <small class="italic">include this event in GighubApp Search and other search engines but only invited guest can join and view the full details. </small>
+								</label>
+							</div>
+							<div class="radio gha-radio">
+								<label>
+									<input type="radio" name="privacy">
+									<i class="fa radio-icon"></i>
+									Private-Hidden Event:
+									<small class="italic">Hide this event from GighubApp Search and other search engines, and only invited guest can join and view the full details</small>
+								</label>
+							</div>
+						</div>
 					</div>
 				</form>
 				
@@ -449,7 +480,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<p>© 2016 GigHubApp. All Rights Reserved.</p>
+					<p>&copy; 2016 GigHubApp. All Rights Reserved.</p>
 				</div>
 				<div class="col-md-6">
 					<ul class="list-inline footer-links text-right">

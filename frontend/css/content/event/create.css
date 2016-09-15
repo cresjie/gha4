@@ -84,6 +84,10 @@
 @media (max-width: 600px){
 	.ticket-table-responsive{
 		overflow-x: auto;
+		margin-bottom: 15px;
+	}
+	.ticket-table-responsive .ticket-table{
+		margin-bottom: 0;
 	}
 	.ticket-table{
 		min-width: 600px;
