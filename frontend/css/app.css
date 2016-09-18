@@ -180,6 +180,68 @@ textarea{
 	margin-right: 5px;
 	margin-left: 5px;
 }
+
+.navbar-gha-wrapper{
+	display: table;
+	width: 100%;
+	background: #1e1e1e;
+}
+.navbar-gha-wrapper>ul>li>a{
+	color: #f15827;
+	display: table-cell;
+	vertical-align: middle;
+	height: 70px;
+}
+.navbar-gha-wrapper>ul>li>a:hover{
+	color: #f15827;
+	background: #363636;
+}
+
+/*****
+ * Event card
+ ******/
+
+.event-card{
+	background: #fff;
+	box-shadow: 1px 1px 7px #a5a2a2;
+	border-radius: 3px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+.event-card .event-body{
+	padding: 10px;
+	padding-bottom: 40px;
+}
+.event-card .event-title{
+	font-size: 17px;
+	margin-top: 0;
+	color: #40a2b0;
+}
+.event-card .event-info p{
+	font-size: 12px;
+	margin: 0;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #313131
+}
+
+.event-action .save-event{
+	position: absolute;
+    right: 15px;
+    font-size: 37px;
+    color: #636363;
+    top: -9px;
+}
+.event-action .save-event:hover,
+.event-action .save-event:focus{
+	color: #318b98;
+}
+.event-action .save-event.saved{
+	color: #40a2b0;
+}
 /**
 * Bootstrap override
 */

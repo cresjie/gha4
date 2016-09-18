@@ -1,0 +1,58 @@
+.user-info{
+	max-height: 450px;
+	overflow: hidden;
+	position: relative;
+}
+.user-info .user-profile{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(64,162,176,.5);
+	
+}
+.profile-col{
+	position: relative;
+	padding-bottom: 80px;
+}
+.profile-img-wrapper{
+	padding: 0 30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.profile-img-wrapper img{
+	margin: 0 auto;
+	border-radius: 5px;
+}
+.user-name-wrapper{
+	padding-left: 0;
+}
+.user-profile .user-name{
+	color: #fff;
+	font-size: 24px;
+}
+.user-actions{
+	margin: 0;
+}
+.user-actions li{
+	padding: 0;
+}
+.user-actions a{
+	font-size: 58px;
+	color: #fff;
+	display: block;
+	padding: 10px 15px;
+}
+.user-actions a:hover{
+	background: #3f7e82;
+}
+
+.event-listing{
+	margin-top: 20px;
+}
+@media(max-width: 992px) {
+	.user-name{
+		text-align: center;
+	}
+}
