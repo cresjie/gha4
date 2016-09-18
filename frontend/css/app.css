@@ -213,6 +213,20 @@ textarea{
 	position: relative;
 	margin-bottom: 20px;
 }
+.event-card .event-header{
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 70%;
+	background: #e3e3e3;
+}
+.event-card .event-header img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
 .event-card .event-body{
 	padding: 10px;
 	padding-bottom: 40px;
