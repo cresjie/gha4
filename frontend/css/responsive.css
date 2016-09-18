@@ -7,4 +7,9 @@
 		max-width: initial;
 		width: 100%;
 	}
+
+	.container-full{
+		padding-right: 0;
+		padding-left: 0;
+	}
 }

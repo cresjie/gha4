@@ -229,7 +229,10 @@ textarea{
 }
 .event-card .event-body{
 	padding: 10px;
-	padding-bottom: 40px;
+}
+.event-card .event-body .event-info{
+	height: 100px;
+	overflow: auto;
 }
 .event-card .event-title{
 	font-size: 17px;
@@ -238,11 +241,7 @@ textarea{
 }
 .event-card .event-info p{
 	font-size: 12px;
-	margin: 0;
-	display: block;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	white-space: nowrap;
+	margin-bottom: 2px;
 	color: #313131
 }
 
