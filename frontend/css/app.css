@@ -197,6 +197,10 @@ textarea{
 	background: #363636;
 }
 
+.navbar-gha-wrapper li{
+	float: left;
+	list-style-type: none;
+}
 /*****
  * Event card
  ******/
@@ -242,6 +246,7 @@ textarea{
 .event-action .save-event.saved{
 	color: #40a2b0;
 }
+
 /**
 * Bootstrap override
 */

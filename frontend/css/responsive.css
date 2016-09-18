@@ -1,0 +1,10 @@
+/**
+* Global responsive stylesheet
+****/
+
+@media(max-width: 768px) {
+	.event-header img{
+		max-width: initial;
+		width: 100%;
+	}
+}
