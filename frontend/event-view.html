@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GigHubApp</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/app.css"/>
+	<link rel="stylesheet" href="css/responsive.css"/>
+
+	<link rel="stylesheet" href="css/content/event/show.css"/>
+
+	
+	<script src="js/library/jquery/jquery-3.1.0.min.js"></script>
+	<script src="js/library/bootstrap/bootstrap.min.js"></script>
+
+	
+	
+	<script src="js/app.js"></script>
+	
+</head>
+<body class="home">
+
+	<nav class="navbar navbar-main navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="GigHubApp" height="48" src="images/logo/logo.png">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<form class="navbar-form">
+							<div class="navbar-search">
+								<input type="text" class="transparent-input" placeholder="Search" auto-width>
+								<i class="fa fa-search"></i>
+							</div>
+							
+						</form>
+					</li>
+					<li><a href="#">SIGNUP</a></li>
+					<li class="dropdown login-dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">LOGIN</a>
+						<ul class="dropdown-menu ">
+							
+							<li>
+								
+								<form>
+									<div class="form-group">
+										<input type="text" name="username" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" class="form-control" placeholder="Password">
+									</div>
+									<button type="submit" class="btn btn-gha-primary btn-block">Login</button>
+								</form>
+									
+								
+							</li>
+							
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="navbar-spacer" style="height:82px"></div>
+
+	<div class="main-content">
+		<div class="container container-full">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="event-poster-wrapper">
+						<img class="img-responsive" src="../uploads/event_poster/original/default.jpg">
+						<div class="event-action-wrapper">
+							<div class="row margin-none">
+								<div class="col-md-8 col">
+									<h1 class="event-title">One direction tour</h1>
+								</div>
+								<div class="col-md-4 col">
+									<ul class="list-inline margin-none event-actions">
+										
+										<li>
+											<a class="save-event" href="#">
+												<i class="fa fa-bookmark"></i>
+											</a>
+										</li>
+										<li>
+											<button class="btn btn-gha-success bold">BUY TICKET</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="event-content">
+						<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula neque sit amet erat vulputate, a pulvinar arcu rhoncus. Vestibulum non dui vel metus posuere placerat. Nullam tincidunt vestibulum ligula, ut interdum nulla condimentum sed. Curabitur vehicula lacus sit amet turpis blandit aliquet. Praesent aliquam mauris at leo gravida tincidunt. Ut cursus, nisi vitae vestibulum tincidunt, arcu velit sollicitudin leo, quis fringilla velit ante non nibh. Etiam et sem massa. Quisque facilisis dui imperdiet felis aliquam, eu semper quam ultrices. Donec eget nulla gravida, hendrerit enim non, venenatis nulla.
+</p>
+
+<p>
+Aenean quis facilisis ante. Fusce vestibulum urna magna, vitae maximus tortor egestas eget. Nullam mattis sapien ligula, vel tristique elit tristique eu. Sed et molestie ipsum. Fusce id lectus blandit, vehicula metus sed, varius urna. Suspendisse ut condimentum eros. Curabitur accumsan congue orci vitae hendrerit. Praesent libero tortor, consequat sed condimentum a, venenatis sed tellus. Mauris sit amet tincidunt ex. Mauris ut metus ultrices, mollis est vitae, consequat felis. Donec varius, elit id rutrum venenatis, lorem massa aliquet enim, a tristique massa urna vel sem. Pellentesque aliquam elit magna, a gravida nulla volutpat nec. Proin at porttitor justo, sit amet tincidunt nisi.
+</p>
+
+<p>
+Aenean quis facilisis ante. Fusce vestibulum urna magna, vitae maximus tortor egestas eget. Nullam mattis sapien ligula, vel tristique elit tristique eu. Sed et molestie ipsum. Fusce id lectus blandit, vehicula metus sed, varius urna. Suspendisse ut condimentum eros. Curabitur accumsan congue orci vitae hendrerit. Praesent libero tortor, consequat sed condimentum a, venenatis sed tellus. Mauris sit amet tincidunt ex. Mauris ut metus ultrices, mollis est vitae, consequat felis. Donec varius, elit id rutrum venenatis, lorem massa aliquet enim, a tristique massa urna vel sem. Pellentesque aliquam elit magna, a gravida nulla volutpat nec. Proin at porttitor justo, sit amet tincidunt nisi.
+</p>
+					</div>
+					<div id="event-map"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="rightside-bar">
+						<div class="panel">
+							<div class="panel-body">
+								<button class="btn btn-gha-success btn-block with-btn-icon bold">
+									<div class="row">
+										<div class="col-md-2">
+											<i class="fa fa-ticket btn-icon"></i>
+										</div>
+										<div class="col-md-8">
+											BUY TICKET
+										</div>
+									</div>
+										
+								</button>
+							</div>							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>&copy; 2016 GigHubApp. All Rights Reserved.</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-inline footer-links text-right">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">HELP</a></li>
+						<li><a href="#">CAREERS</a></li>
+						<li><a href="#">TERMS</a></li>
+						<li><a href="#">PRIVACY</a></li>
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

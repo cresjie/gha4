@@ -1,0 +1,58 @@
+.event-poster-wrapper{
+	position: relative;
+}
+.event-action-wrapper{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255,255,255,.5);
+	padding: 20px 10px;
+}
+.event-action-wrapper li{
+	float: right
+}
+.event-title{
+	font-size: 28px;
+	margin: 0;
+	color: #000;
+}
+.event-action-wrapper .save-event{
+	font-size: 38px;
+	color: #636363;
+	line-height: 1;
+}
+.event-action-wrapper .save-event:hover,
+.event-action-wrapper .save-event:focus{
+	color: #40a2b0;
+}
+.event-action-wrapper>.row{
+	display: table;
+	width: 100%;
+}
+.event-action-wrapper>.row>.col{
+	display: table-cell;
+	float: none;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.event-actions{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.event-actions li{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.event-content{
+	padding: 50px 10px;
+	background: #fff;
+}
+
+#event-map{
+	background: #847c7c;
+	height: 300px;
+}
