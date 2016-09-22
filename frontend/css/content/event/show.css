@@ -56,3 +56,12 @@
 	background: #847c7c;
 	height: 300px;
 }
+.action-icon-wrapper{
+	position: relative;
+}
+.action-icon-wrapper .action-icon{
+	position: absolute;
+	left: 0;
+	top: -2px;
+	font-size: 26px;
+}
