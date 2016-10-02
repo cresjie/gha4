@@ -65,3 +65,34 @@
 	top: -2px;
 	font-size: 26px;
 }
+
+.organizer-list{
+	display: table;
+	width: 100%
+}
+.organizer-list .organizer-media{
+	display: table-cell;
+	vertical-align: middle;
+}
+.organizer-list li:not(:last-child) {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.organizer-list li img{
+	max-width: 100%;
+	display: inline-block;
+	border-radius: 50%;
+}
+.organizer-list .organizer-name{
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.ticket-type{
+	font-weight: 600;
+}
+
+.rightside-bar > *:first-child{
+	margin-top: 20px;
+}

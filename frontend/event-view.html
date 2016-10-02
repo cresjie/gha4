@@ -91,7 +91,7 @@
 											</a>
 										</li>
 										<li>
-											<button class="btn btn-gha-success bold">BUY TICKET</button>
+											<button class="btn btn-gha-success bold" data-toggle="modal" data-target="#ticket-modal">BUY TICKET</button>
 										</li>
 									</ul>
 								</div>
@@ -118,7 +118,7 @@ Aenean quis facilisis ante. Fusce vestibulum urna magna, vitae maximus tortor eg
 					<div class="rightside-bar">
 						<div class="panel">
 							<div class="panel-body">
-								<button class="btn btn-gha-success btn-block bold">
+								<button class="btn btn-gha-success btn-block bold" data-toggle="modal" data-target="#ticket-modal">
 
 									<div class="row">
 										<div class="col-md-2">
@@ -167,17 +167,93 @@ Aenean quis facilisis ante. Fusce vestibulum urna magna, vitae maximus tortor eg
 							</div>
 						</div>
 
-						<div class="panel panel-gha-info">
+						<div class="panel panel-gha-info organizer-panel">
 							<div class="panel-heading bold">ORGANIZERS</div>
 							<div class="panel-body">
-								ad
+								<ul class="organizer-list list-unstyled">
+									<li>
+										<div class="organizer-media">
+											<div>
+
+												<img class="img-responsive" src="../uploads/profile_img/50x50/default.jpg">
+												<span class="organizer-name">KHADSFASDF  kjsdhgkj sdfgkkjshfgk sdfgkhsd</span>
+											</div>
+											
+										</div>
+										
+									</li>
+									<li>
+										
+										<div class="organizer-media">
+											<div>
+
+												<img class="img-responsive" src="../uploads/profile_img/50x50/default.jpg">
+												<span class="organizer-name">cres</span>
+											</div>
+											
+										</div>
+										
+										
+										
+									</li>
+								</ul>
 							</div>
 						</div>
+
+						
 					</div>
 
 						
 				</div>
 			</div>
+
+			<!-- Modal -->
+				<div id="ticket-modal" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<table class="table">
+									<thead>
+										<tr>
+											<th width="55%">TYPE</th>
+											<th width="15%">STOCK</th>
+											<th width="15%">PRICE</th>
+											<th width="15%">QUANTITY</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<div class="ticket-type">VIP</div>
+												<p class="italic"><small>lorem</small></p>
+											</td>
+											<td>100</td>
+											<td>$200.00</td>
+											<td><input type="number" class="form-control"></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="ticket-type">VIP</div>
+												<p class="italic"><small>lorem</small></p>
+											</td>
+											<td>100</td>
+											<td>$200.00</td>
+											<td><input type="number" class="form-control"></td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="text-right">
+									<b>Total:</b> <span class="total-price">$100.00</span>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+								<button class="btn btn-gha-success">PURCHASE</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			<!-- ENd Modal -->
 		</div>
 	</div>
 
