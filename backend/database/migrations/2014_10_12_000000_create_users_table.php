@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('email',80)->unique();
             $table->string('password');
             //$table->string('password_reminder',500);
-            $table->string('slug',50)->unique();
+            $table->string('username',50)->unique();
             $table->string('first_name',50);
             $table->string('middle_name',50);
             $table->string('last_name',50);
